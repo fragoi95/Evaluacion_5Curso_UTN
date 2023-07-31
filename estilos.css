@@ -1,0 +1,194 @@
+/* ARCHIVO ESTILOS EVALUACIÓN 5*/
+/* FORMATO GENERAL DE LA PAGINA */
+header, section, footer {
+    width: 1200px;
+    margin: auto;
+    margin-right: auto;
+}
+
+body, html {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+body {
+    background-image: url(img/fondo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* FORMATO DE LA CABECERA */
+header {
+    height: 150px; 
+    background-image: url(img/header1.jpg);
+    background-size: cover;
+    /* background-color:  #273043;  Oscuro Azul Marino */
+    
+}
+
+/* formato del logo*/
+#logo {
+    height: 100px; 
+    width: 200px;
+
+    background-image: 
+        url(img/logo_2.jpg),
+        url(img/logo.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, contain;
+    background-position: left center, right center;
+    margin: 25px 50px;
+    float: left;
+}
+
+/* formato del menú horizontal*/
+#menu_horizontal {
+    height: 100px; 
+    width: 680px;
+    margin: 25px 50px;
+    float: right
+}
+
+#botonera {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+#botonera li {
+    flex-grow: 1;
+
+}
+
+#botonera li a{
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: x-large;
+    text-align: center;
+    float: left;
+    margin-right: auto;
+    padding: 30px 0;
+    width: 150px;
+    margin: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+    #botonera li a:hover {
+        background: cadetblue;
+    }
+
+
+
+/* FORMATO GENERAL PARA TODAS LAS SECCIONES */
+section {
+    height: 600px; /* Misma altura para cada sección */
+}
+
+
+/* FORMATO INDIVIDUAL PARA CADA SECCIÓN */
+#seccion_1 {
+
+}
+
+
+#seccion_2 {
+    background-color: #324a5f;  /* Azul marino más oscuro */
+}
+
+#seccion_3 {
+    background-color: #9dab86;  /* Verde oliva apagado */
+}
+/*definicion de las caracteristicas de cada articulo*/
+.sec_1 {
+    width: 520px;
+    height: 520px;
+    float: left;
+    margin: 40px;
+}
+
+.sec_2 {
+    width: 1100px;
+    height: 500px;
+    float: left;
+    background-color: #5eaaa8;  /* Azul verdoso */
+    margin: 50px;
+}
+
+.sec_3 {
+    width: 360px;
+    height: 520px;
+    float: left;
+    background-color: #1a2d50;  /* Azul marino muy oscuro */
+    margin: 30px 20px;
+}
+
+/* FORMATO DEL PIE DE LA PAGINA*/
+footer {
+    height: 200px;
+    background-image: url(img/banner1.jpg);
+    background-size: cover;
+}
+
+#contacto {
+    height: 150px; 
+    width: 650px;
+    margin: 25px;
+    float: left;
+}
+
+#copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px; 
+    width: 250px;
+    margin: 25px 50px;
+    float: right;
+}
+
+
+/* Edición de los elementos de la pag web*/
+
+h2 {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.tamImg {
+    height: 100%;
+}
+
+.tamImg2 {
+    height: 70%;
+    width: auto;
+}
+
+.tex1 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.contact {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    font-family: Arial, sans-serif;   
+}
+
