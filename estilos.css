@@ -141,14 +141,19 @@ footer {
     background-size: cover;
 }
 
-#contacto {
+#contacto {     /* FORMATO caja de contacto*/
     height: 150px; 
     width: 650px;
     margin: 25px;
     float: left;
 }
 
-#copyright {
+#contacto img {  /* FORMATO para escalar las imagenes*/
+    width: 5%;
+    height: auto;
+}
+
+#copyright {   /* FORMATO caja de copyright*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -178,6 +183,11 @@ h2 {
     width: auto;
 }
 
+.tamImg3 {
+    height: 10%;
+    width: auto;
+}
+
 .tex1 {
     color: white;
     font-size: 20px;
@@ -189,6 +199,21 @@ h2 {
     color: white;
     font-size: 20px;
     text-align: left;
-    font-family: Arial, sans-serif;   
+    font-family: Arial, sans-serif;
+    list-style-type: none;   
+}
+
+ul.contact li {
+    margin: 10px 0;  /* Agrega 10px de margen en la parte superior e inferior de cada elemento de la lista */
+}
+
+ul.contact li a {
+    text-decoration: none; /* Quita el subrayado */
+    color: white; 
+}
+
+
+ul.contact li img {
+    vertical-align: middle;
 }
 
